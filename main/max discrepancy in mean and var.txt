@@ -1,0 +1,11 @@
+Error in var and mean
+
+dt = 0.0005 
+n trials= 10000
+Biggest difference in mean: 0.020
+Biggest difference in var: 0.019
+
+dt = 0.01 
+n trials= 10000
+Biggest difference in mean: 0.031
+Biggest difference in var: 0.018

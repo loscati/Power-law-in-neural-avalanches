@@ -1,0 +1,174 @@
+T = 5000 # time of sim in s
+dt = 0.0001 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 19
+
+SIZE
+Original dataset. N = 13042
+Empirical p-value from 100 synthetic datasets:  0.43000000000000005
+Alpha: 1.9336301050196534
+DURATION
+Original dataset. N = 4705
+Empirical p-value from 100 synthetic datasets:  0.73
+Alpha: 2.37612354863253
+GAMMA
+r value: 0.9980594248009833
+intercept: 0.11692806249044851
+slope: 1.2473386464480671
+Std for the slope: 0.004171649335070178
+
+Gamma obtained in the fit: 1.2473386464480671 +- 0.004171649335070178
+Gamma obtained through the crackling rel.: 1.4739494166199383 +- 0.07106452874928157
+#-------------------------------------------
+T = 8000 # time of sim in s
+dt = 0.0003 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 7
+
+SIZE
+Original dataset. N = 15902
+Empirical p-value from 100 synthetic datasets:  0.81
+Alpha: 1.908745436127739
+DURATION
+Original dataset. N = 17367
+Empirical p-value from 100 synthetic datasets:  0.64
+Alpha: 2.168941710493567
+GAMMA
+r value: 0.9978888320845859
+intercept: 0.1229294018413829
+slope: 1.2502045356248332
+Std for the slope: 0.0038702125901099137
+
+Gamma obtained in the fit: 1.2502045356248332 +- 0.0038702125901099137
+Gamma obtained through the crackling rel.: 1.28632471099338 +- 0.07839429791219668
+
+#--------------------------------------------
+T = 2000 # time of sim in s
+dt = 0.0005 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 5
+
+SIZE
+Original dataset. N = 5313
+Empirical p-value from 100 synthetic datasets:  0.9299999999999999
+Alpha: 1.8255919334956805
+DURATION
+Original dataset. N = 2451
+Empirical p-value from 100 synthetic datasets:  0.98
+Alpha: 2.007567794732482
+GAMMA
+r value: 0.9984849372257306
+intercept: 0.07932331862271491
+slope: 1.2870864874862096
+Std for the slope: 0.006059986868120745
+
+Gamma obtained in the fit: 1.2870864874862096 +- 0.006059986868120745
+Gamma obtained through the crackling rel.: 1.2204186521860603 +- 0.06495738437544729
+
+Collasso proprio brutto
+#-------------------------------------------
+T = 20000 # time of sim in s
+dt = 0.001 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 2
+
+SIZE
+Original dataset. N = 40136
+Empirical p-value from 100 synthetic datasets:  0.52
+Alpha: 1.7380631036418246
+DURATION
+Original dataset. N = 37975
+Empirical p-value from 100 synthetic datasets:  0.88
+Alpha: 1.9480824952025237
+GAMMA
+r value: 0.9984978327927564
+intercept: 0.09934882283896851
+slope: 1.2877083450791895
+Std for the slope: 0.003125870002827873
+
+Gamma obtained in the fit: 1.2877083450791895 +- 0.0031258700028278736
+Gamma obtained through the crackling rel.: 1.2926091290335273 +- 0.05368584759282138
+
+Rispetto a prima ci stanno più problemi a livello
+del collasso ad una curva. Non pulito come
+nel caso precedente ma niente di quantificato
+
+# --------------------------------------
+T = 10000 # time of sim in s
+dt = 0.003 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 2
+
+SIZE
+Original dataset. N = 19336
+Empirical p-value from 100 synthetic datasets:  0.37
+Alpha: 1.4589809611569495
+DURATION
+Original dataset. N = 11978
+Empirical p-value from 100 synthetic datasets:  0.6
+Alpha: 1.6108408551922724
+GAMMA
+r value: 0.9969938159185523
+intercept: 0.10152370113510711
+slope: 1.3755268765493969
+Std for the slope: 0.005697724283959834
+
+Gamma obtained in the fit: 1.3755268765493969 +- 0.005697724283959834
+Gamma obtained through the crackling rel.: 1.3308631662030836 +- 0.049834322518930156
+
+#------------------------------------------
+T = 20000 # time of sim in s
+dt = 0.005 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 2
+
+SIZE
+Original dataset. N = 16773
+Empirical p-value from 100 synthetic datasets:  0.9299999999999999
+Alpha: 1.2941428014813339
+DURATION
+Original dataset. N = 11797
+Empirical p-value from 100 synthetic datasets:  0.99
+Alpha: 1.4148548728394952
+GAMMA
+r value: 0.9981032670443793
+intercept: 0.18797188178283308
+slope: 1.4452570121662212
+Std for the slope: 0.005079328599858174
+
+Gamma obtained in the fit: 1.4452570121662212 +- 0.005079328599858174
+Gamma obtained through the crackling rel.: 1.4103859443448648 +- 0.03492722492855467
+
+Good collasso
+#-------------------------------------------
+T = 25000 # time of sim in s
+dt = 0.01 # time step
+
+N_neurons = 2000
+Mean interspike time [dt units]: 2
+
+SIZE
+Original dataset. N = 13508
+Empirical p-value from 100 synthetic datasets:  0.95
+Alpha: 1.1972228931748394
+DURATION
+Original dataset. N = 21371
+Empirical p-value from 100 synthetic datasets:  0.79
+Alpha: 1.332347855679719
+GAMMA
+r value: 0.9988305188669581
+intercept: 0.41360731269733275
+slope: 1.528875008974328
+Std for the slope: 0.006022492950493164
+
+Gamma obtained in the fit: 1.528875008974328 +- 0.006022492950493164
+Gamma obtained through the crackling rel.: 1.6851383241046485 +- 0.031709653604692405
+
+Ottimo collasso delle curve, visivamente piacevole.
+# --------------------------------------
